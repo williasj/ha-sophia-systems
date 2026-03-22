@@ -1,0 +1,56 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "SOPHIA Systems - TrueNAS Connection",
+        "description": "{info}",
+        "data": {
+          "truenas_url":        "TrueNAS URL",
+          "truenas_api_key":    "TrueNAS API Key",
+          "truenas_verify_ssl": "Verify SSL certificate",
+          "poll_interval":      "Poll interval (seconds)"
+        }
+      },
+      "pi": {
+        "title": "SOPHIA Systems - Raspberry Pi 5",
+        "description": "{info}",
+        "data": {
+          "pi_enabled":        "Enable Pi monitoring",
+          "pi_cpu_entity":     "CPU usage entity",
+          "pi_temp_entity":    "CPU temperature entity",
+          "pi_mem_entity":     "Memory usage entity",
+          "pi_disk_entity":    "Disk usage entity",
+          "pi_net_in_entity":  "Network in entity",
+          "pi_net_out_entity": "Network out entity"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect":   "Cannot connect to TrueNAS - check URL and API key",
+      "truenas_required": "TrueNAS URL and API key are both required"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "SOPHIA Systems - Settings",
+        "data": {
+          "truenas_url":        "TrueNAS URL",
+          "truenas_api_key":    "TrueNAS API Key",
+          "truenas_verify_ssl": "Verify SSL certificate",
+          "poll_interval":      "Poll interval (seconds)",
+          "pi_enabled":         "Enable Pi monitoring",
+          "pi_cpu_entity":      "CPU usage entity",
+          "pi_temp_entity":     "CPU temperature entity",
+          "pi_mem_entity":      "Memory usage entity",
+          "pi_disk_entity":     "Disk usage entity",
+          "pi_net_in_entity":   "Network in entity",
+          "pi_net_out_entity":  "Network out entity"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to TrueNAS - check URL and API key"
+    }
+  }
+}

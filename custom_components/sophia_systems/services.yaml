@@ -1,0 +1,8 @@
+refresh:
+  name: Refresh System Health
+  description: >
+    Immediately polls TrueNAS Scale for updated hardware health data
+    including CPU and GPU temperatures, fan speeds, pool status, disk
+    temperatures, and network throughput. Normally auto-polls on the
+    configured interval (default 30 seconds).
+  fields: {}

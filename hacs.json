@@ -1,0 +1,7 @@
+{
+  "name": "SOPHIA Systems",
+  "description": "Hardware telemetry for SOPHIA - TrueNAS Scale, NVIDIA GPU (via netdata), BMC/Redfish, and Raspberry Pi interface node monitoring.",
+  "render_readme": true,
+  "homeassistant": "2024.4.0",
+  "iot_class": "local_polling"
+}
